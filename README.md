@@ -1,0 +1,2 @@
+# katas
+Codewars Kata Tests
