@@ -2,7 +2,6 @@ function shuffledArray(shuffled) {
   function sortNumber(a, b) {
     return a - b;
   }
-  let arr = [];
   let sum = 0;
   for (let i = 0; i < shuffled.length; i++) {
     sum = sum += shuffled[i];
@@ -19,5 +18,3 @@ function shuffledArray(shuffled) {
   console.log(shuffled.sort(sortNumber));
   return shuffled.sort();
 }
-
-shuffledArray([1, -3, -5, 7, 2]);
