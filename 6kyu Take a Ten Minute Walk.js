@@ -1,6 +1,7 @@
 function isValidWalk(walk) {
   let counterVert = 0;
   let counterHoriz = 0;
+
   walk.forEach(function(x) {
     if (x === "n") {
       counterVert++;
@@ -19,5 +20,3 @@ function isValidWalk(walk) {
     return false;
   }
 }
-
-isValidWalk(["n", "n", "n", "s", "n", "s", "n", "s", "n", "s"]);
