@@ -17,6 +17,13 @@ function rgb(r, g, b) {
     }
   }
 
+  console.log(
+    res
+      .join("")
+      .toString()
+      .toUpperCase()
+  );
+
   return res
     .join("")
     .toString()
