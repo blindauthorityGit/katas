@@ -1,1 +1,1 @@
-dwdwdw;
+prompt("number", "");
