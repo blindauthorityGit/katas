@@ -32,3 +32,12 @@ function orderWeight(strng) {
 }
 
 orderWeight("2000 10003 1234000 44444444 9999 11 11 22 123");
+
+function removeSmallest(numbers) {
+  let smallest = [...numbers].sort((a, b) => a - b)[0];
+  numbers.splice(numbers.indexOf(smallest), 1);
+  console.log(numbers);
+  return numbers;
+}
+
+removeSmallest([1, 2, 3, 4, 5]);
